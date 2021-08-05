@@ -16,3 +16,23 @@ The goal of this challenge is to determine whether there is any bias toward favo
 - 36 % of vine reviewers gave a rating of five stars.
 
 ## Summary
+This analysis alone indicates that there was no positivity bias for reviews in the vine program in fact the opposite might be argued. non-vine reviewrs showed a higher percentage of five star reviews. 
+
+
+### Additional Analysis
+
+![Additonal Analysis](https://github.com/Donik22/Amazon_Vine_Analysis/blob/main/Resources/Additional%20Analysis.PNG)
+
+An extra analytic query was done using SQL to confirm our summary Instead Our initial Hypothesis could'nt be supported. 
+
+The  Attributes are :
+
+- Paid_viewers = Percentage of paid viewers that gave products the corrosponding star_rating
+- Unpaid_viewers = Percentage of Unpaid viewers that gave products the corrosponding star_rating
+
+We see Here that unpaid Reviewers are more likely to give an extreme review (1 or 5 ) While paid reviewers are very less likely to give a review that is less than 3. 
+
+### In conclusion.
+
+- Paid reviewers are more likely to give a good review (>3).
+- Unpaid reviewrs are more likely to give an extreme review (1 or 5).
